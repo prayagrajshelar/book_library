@@ -13,7 +13,7 @@ with **JWT-based authentication**.
 ---
 
 ## 🛠️ Project Structure
-
+```bash
 book_library/
 │
 ├── app/
