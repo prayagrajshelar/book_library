@@ -1,8 +1,35 @@
-fastapi==0.95.2
-uvicorn[standard]==0.22.0
-SQLAlchemy==1.4.48
-pydantic==1.10.11
+# fastapi==0.95.2
+# uvicorn[standard]==0.22.0
+# SQLAlchemy==1.4.48
+# pydantic==1.10.11
+# python-jose==3.3.0
+# passlib[bcrypt]==1.7.4
+# python-dotenv==1.0.1
+# typing-extensions==4.7.1
+
+# Core FastAPI framework
+fastapi==0.115.0
+uvicorn==0.30.3
+
+# ORM and database
+SQLAlchemy==2.0.30
+alembic==1.13.2
+
+# Data validation and serialization
+pydantic==2.8.2
+pydantic-settings==2.3.4
+
+# Authentication and security
 python-jose==3.3.0
 passlib[bcrypt]==1.7.4
-python-dotenv==1.0.1
-typing-extensions==4.7.1
+bcrypt==4.1.2
+
+# Form and email validation
+python-multipart==0.0.9
+email-validator==2.2.0
+
+# Date and time support
+python-dateutil==2.9.0.post0
+
+# Optional utilities
+requests==2.32.3
