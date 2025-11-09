@@ -17,22 +17,22 @@ with **JWT-based authentication**.
 book_library/
 │
 ├── app/
-│ ├── main.py # FastAPI app entry point
-│ ├── models.py # SQLAlchemy ORM models
-│ ├── schemas.py # Pydantic request/response models
-│ ├── database.py # DB configuration
-│ ├── auth.py # JWT token and password hashing logic
-│ ├── routers/
-│ │ ├── auth_router.py # Register and login endpoints
-│ │ ├── authors_router.py # CRUD for authors
-│ │ ├── books_router.py # CRUD for books
-│ │ └── borrow_router.py # Borrow & return endpoints
-│ └── init.py
+│   ├── main.py                 # FastAPI app entry point
+│   ├── models.py               # SQLAlchemy ORM models
+│   ├── schemas.py              # Pydantic request/response models
+│   ├── database.py             # DB configuration
+│   ├── auth.py                 # JWT token and password hashing logic
+│   ├── routers/
+│   │   ├── auth_router.py      # Register and login endpoints
+│   │   ├── authors_router.py   # CRUD for authors
+│   │   ├── books_router.py     # CRUD for books
+│   │   └── borrow_router.py    # Borrow & return endpoints
+│   └── __init__.py
 │
-├── .env.example # Sample environment variables
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
-└── DEVELOPMENT.md # Development and debugging notes
+├── .env.example                # Sample environment variables
+├── requirements.txt            # Project dependencies
+├── README.md                   # Project documentation
+└── DEVELOPMENT.md              # Development and debugging notes
 
 
 
