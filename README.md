@@ -19,5 +19,5 @@ A complete RESTful API built using **FastAPI**, **SQLAlchemy**, and **SQLite**, 
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/book_library.git
+git clone https://github.com/prayagrajshelar/book_library.git
 cd book_library
